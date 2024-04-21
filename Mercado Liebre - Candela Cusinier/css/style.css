@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+header{
+    background-color: #fbbc02;
+    height: 27%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1280px) { 
+    #logo { 
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:
+1280px) {
+        #logo {
+           width: 200px;
+        }
+}
+    
+@media screen and (max-width: 640px) { 
+        #logo { 
+            width: 100px;
+        }
+}
+
+
+
+@media screen and (min-width: 1280px) { 
+    #banner{ 
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:
+1280px) {
+        #banner{
+           width: 100%;
+        }
+}
+    
+@media screen and (max-width: 640px) { 
+        #banner{ 
+            width: 100%;
+        }
+}
+
+
+@media screen and (min-width: 1280px) { 
+    .card-body, .card-img-top, .card-title{ 
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:
+1280px) {
+        .card-body, .card-img-top, .card-title{
+           display: inline-block;
+        }
+}
+    
+@media screen and (max-width: 640px) { 
+        .card, .card-body, .card-img-top, .card-title{ 
+            display: block;
+            font-size: 7px;
+        }
+}
+
+@media screen and (min-width: 1280px) { 
+    button{ 
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 640px) and (max-width:
+1280px) {
+        button{
+           display: inline-block;
+        }
+}
+    
+@media screen and (max-width: 640px) { 
+        button{ 
+            display: block;
+            font-size: 7px;
+        }
+}
+#padre{
+    background-color: black;
+    height: 155px;
+    height: 150px;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+}
+
+#arriba a, #banner{
+    position: absolute;
+}
+
+#arriba a{
+    position: absolute;
+    top: 5%;
+    right: 4%;
+}
+
+#cuenta{
+    right: 5%;
+    top: 13%;
+    text-align: right;
+    margin-right: 12px;
+    bottom: 20%;
+}
+
+.texto{
+    padding: 40px;
+}
+
+#logo{
+    margin: 15px 0px 30px 35px;
+    margin-bottom: 8px;
+}
+
+header{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;   
+}
+
+#login{
+    margin-left: 9px;
+    padding-bottom: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ footer a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+nav a{
+    margin-left: 13px;
+}
+
+section{
+    display: flex;
+}  
+
+.ofertas{
+    display: flex;
+}
+
+.tarjeta, .card{
+    flex: 1;
+    border:  1px gray solid;
+    margin: 0px 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.tarjeta img, .card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+h4, button{
+    display: inline;
+}
+
+.oferta, .destacados{
+    display: flex;
+}
+
+.b{
+    flex: 3;
+}
+
+.text{
+    position: relative;
+    bottom: 50%;
+}
+
+.tarjeta img:hover, .card img:hover{
+    opacity: 0.5;
+}
+
+form{
+    margin: 25px 3% ;
+    background-color: gainsboro;
+    text-align: center;
+    border-radius: 12px;
+    padding: 12px 15px;
+}
+
+
+button{
+    color: white;
+    background-color: rgb(55, 133, 250);
+    border-radius: 4px;
+    border: 2px rgb(55, 133, 250) solid;
+}
+
+h2{
+    margin: 8px 5px 10px 2px;
+}
+
+.detalle{
+    margin-bottom: 5px;
+}
+
+.bx{
+    margin-right: 5px;
+}
+
+.btn{
+    background-color: rgb(55, 133, 250);
+}
+
+.medio{
+    border-left: 1px gray solid;
+    border-right: 1px gray solid;
+    border-top: 1px gray solid;
+}
+
+
+
+
